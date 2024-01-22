@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="main-container">
@@ -22,15 +24,15 @@
           <option value="">Eindhoven</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="sydney">
           <div>
-            <h2>Sidney 🇦🇺</h2>
-            <div class="date">August 15th 2022</div>
+            <h2>Sydney 🇦🇺</h2>
+            <div class="date" id="sidney-date">August 15th 2022</div>
           </div>
-          <div class="time">1:48:15 <small>am</small></div>
+          <div class="time" id="sidney-time">1:48:15 <small>am</small></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="tokyo">
           <div>
             <h2>Tokyo 🇯🇵</h2>
             <div class="date">August 15th 2022</div>
@@ -38,12 +40,12 @@
           <div class="time">1:48:15<small>am</small></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="paris">
           <div>
             <h2>Paris 🇫🇷</h2>
-            <div class="date">August 15th 2022</div>
+            <div class="date" id="paris-date">August 15th 2022</div>
           </div>
-          <div class="time">1:48:15 <small>am</small></div>
+          <div class="time" id="paris-time">1:48:15 <small>am</small></div>
         </div>
       </main>
     </div>
