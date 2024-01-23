@@ -77,6 +77,10 @@ h2 {
   line-height: 48px;
 }
 
+.link {
+  margin-top: 20px;
+}
+
 a {
   color: rgb(116, 153, 170);
 }
