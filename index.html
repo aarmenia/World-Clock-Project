@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="main-container">
       <header>
-        <h1>World Clock</h1>
-        <img
-          src="https://www.researchgate.net/profile/Michael-Barz-3/publication/328189310/figure/fig1/AS:680028257918978@1539142779762/Clock-Drawing-Test-CDT.ppm"
-        />
+        <div class="header-container">
+          <h1>World Clock</h1>
+          <img src="https://svgsilh.com/svg/34139.svg" />
+        </div>
       </header>
       <main>
         <select id="city">
           <option value="">Choose a city</option>
           <option value="America/Los_Angeles">Los Angeles</option>
           <option value="Europe/London">London</option>
-          <option value="Europe/Amsterdam">Eindhoven</option>
+          <option value="Europe/Amsterdam">Amsterdam</option>
         </select>
 
         <div id="cities">
